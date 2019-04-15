@@ -10,8 +10,8 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         try{
             client.connect("www.mehmetb1r.com");
-            client.login("zoso","1456325");
-            client.setPassive(false);
+            client.login("Kullanıcı Adı","Şifre");
+            client.setPassive(false); 
             while(true){
                 menu.yazdir();
                 i = scan.nextInt();
